@@ -1,0 +1,143 @@
+import scala.annotation.tailrec
+
+object zad1 {
+
+  def pierwsze_a(lista : List[Any] ) : String = {
+    var wynik = ""
+
+    for(i <- lista){
+      if(!wynik.isEmpty) wynik += ","
+      wynik += i
+    }
+    return wynik
+  }
+
+  def pierwsze_b(lista : List[String] ) : String = {
+    var wynik = ""
+
+    for(i <- lista if i.startsWith("P")){
+      if(!wynik.isEmpty) wynik += ","
+      wynik += i
+    }
+    return wynik
+  }
+
+  def pierwsze_c(lista : List[Any] ) : String = {
+    var wynik = ""
+    var i = 0
+    while(i<lista.length){
+      if(!wynik.isEmpty) wynik += ","
+      wynik += lista(i)
+      i+=1
+    }
+    return wynik
+  }
+
+  def drugie_a(lista : List[Any] ) : String = {
+    if (lista.isEmpty) ""
+    else if (lista.tail.isEmpty) lista.head.toString
+    else lista.head+","+drugie_a(lista.tail)
+  }
+
+  def drugie_b(lista : List[Any] ) : String = {
+    if (lista.isEmpty) ""
+    else if (lista.tail.isEmpty) lista.head.toString
+    else drugie_b(lista.tail)+","+lista.head
+  }
+
+  def trzecie(lista : List[Any] ) : String = {
+    @tailrec
+    def iter(listaa: List[Any], result: String): String =
+      if (listaa.isEmpty) ""
+      else if (listaa.tail.isEmpty) result+listaa.head
+      else iter(listaa.tail, result +listaa.head+",")
+    iter(lista, "")
+  }
+
+  def czwarte_a(lista : List[Any] ) : String = {
+    lista.foldLeft(""){(z,f) => if(z.isEmpty) f.toString else z+","+f}
+  }
+
+  def czwarte_b(lista : List[Any] ) : String = {
+    lista.foldRight(""){(z,f) => if(f.isEmpty) z.toString else z+","+f}
+  }
+
+  def czwarte_c(lista : List[Any] ) : String = {
+    lista.foldLeft(""){(z,f) => if(!f.toString.startsWith("P")) z else if(z.isEmpty) f.toString else z+","+f}
+  }
+
+  def piate(mapa : Map[String, Float] ) : Map[String, Float] = {
+    mapa map ( n => (n._1, n._2*0.9f))
+  }
+
+  def szoste(krotka: (Any, Any, Any)): Unit = {
+    println(krotka._1)
+    println(krotka._2)
+    println(krotka._3)
+  }
+
+  def osme(lista : List[Int]) : List[Int] = {
+    if (lista.isEmpty) List()
+    else if (lista.head == 0) osme(lista.tail)
+    else lista.head :: osme(lista.tail)
+  }
+
+  def dziewiate(lista : List[Int]) : List[Int] = {
+    lista map (n => n+1)
+  }
+
+  def dziesiate(lista : List[Double]) : List[Double] = {
+    lista filter (_ >= -5) filter (_ <= 12) map (_.abs)
+  }
+
+  def main(args:Array[String]) : Unit = {
+
+      val dniTygodniaL = List("Poniedzialek", "Wtorek", "Sroda", "Czwartek", "Piatek", "Sobota", "Niedziela")
+      val cenyM = Map("banany" -> 10.0f, "pomarancze" -> 20.0f, "oregano" -> 30.0f, "woda mineralna" -> 40.0f)
+      val krotka = Tuple3(3, "abc", 5.5)
+      val liczbycL = List(0, 1, 0, 2, 0, 0, 1, 0)
+      val liczbyrL = List(1.0, -22.0, 100.0, -5.0, 12.0, -3.5)
+
+      println("Zadanie 1a")
+      println(pierwsze_a(dniTygodniaL))
+      println("\nZadanie 1b")
+      println(pierwsze_b(dniTygodniaL))
+      println("\nZadanie 1c")
+      println(pierwsze_c(dniTygodniaL))
+
+      println("\nZadanie 2a")
+      println(drugie_a(dniTygodniaL))
+      println("\nZadanie 2b")
+      println(drugie_b(dniTygodniaL))
+
+      println("\nZadanie 3")
+      println(trzecie(dniTygodniaL))
+
+      println("\nZadanie 4a")
+      println(czwarte_a(dniTygodniaL))
+      println("\nZadanie 4b")
+      println(czwarte_b(dniTygodniaL))
+      println("\nZadanie 4c")
+      println(czwarte_c(dniTygodniaL))
+
+      println("\nZadanie 5")
+      println(cenyM + " => " + piate(cenyM))
+
+      println("\nZadanie 6")
+      szoste(krotka)
+
+      println("\nZadanie 7")
+      println("cenyM.get( \"banany\" ) : " + cenyM.get("banany"))
+      println("cenyM.get( \"gruszki\" ) : " + cenyM.get("gruszki"))
+
+      println("\nZadanie 8")
+      println(liczbycL + " -> " + osme(liczbycL))
+
+      println("\nZadanie 9")
+      println(liczbycL + " -> " + dziewiate(liczbycL))
+
+      println("\nZadanie 10")
+      println(liczbyrL + " -> " + dziesiate(liczbyrL))
+
+  }
+}
