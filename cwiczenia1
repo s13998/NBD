@@ -95,7 +95,7 @@ object zad1 {
       val dniTygodniaL = List("Poniedzialek", "Wtorek", "Sroda", "Czwartek", "Piatek", "Sobota", "Niedziela")
       val cenyM = Map("banany" -> 10.0f, "pomarancze" -> 20.0f, "oregano" -> 30.0f, "woda mineralna" -> 40.0f)
       val krotka = Tuple3(3, "abc", 5.5)
-      val liczbycL = List(0, 1, 0, 2, 0, 0, 1, 0)
+      val liczbycL = List(0, 1, 0, 2, 0, 0, 1, -3, 0)
       val liczbyrL = List(1.0, -22.0, 100.0, -5.0, 12.0, -3.5)
 
       println("Zadanie 1a")
