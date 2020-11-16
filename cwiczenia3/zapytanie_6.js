@@ -1,0 +1,1 @@
+printjson(db.people.insert({"sex":"Male","first_name":"Kacper","last_name":"Goclowski","job":"Student","email":"s13998@pjwstk.edu.pl","location":{"city":"Warsaw","address":{"streetname":"Tak","streetnumber":"123"}},"description":"qwerty","height":"191.0","weight":"83.2","birth_date":"1996-08-04T01:01:01Z","nationality":"Poland","credit":[]}))
