@@ -1,0 +1,31 @@
+1. MATCH ()-[]->(m:Movie) RETURN m
+
+2. MATCH (n:Person)-[:ACTED_IN]->(m:Movie) WHERE n.name='Hugo Weaving' RETURN m
+
+3. MATCH (n:Person)-[:ACTED_IN]->(m:Movie) WHERE n.name='Hugo Weaving' with m MATCH (r:Person)-[:DIRECTED]->(m:Movie) RETURN r
+
+4. MATCH (n:Person)-[:ACTED_IN]->(m:Movie) WHERE n.name='Hugo Weaving' with m MATCH (p:Person)-[:ACTED_IN]->(m:Movie) WHERE p.name<>'Hugo Weaving' RETURN p
+
+5. MATCH (p:Person)-[:ACTED_IN]->(m:Movie) WHERE m.title='The Matrix' with p MATCH (p:Person)-[:ACTED_IN]->(m:Movie) RETURN m
+
+6. MATCH (p:Person)-[r:ACTED_IN]->(m:Movie) WITH p,COUNT(r) AS gral RETURN p,gral
+
+7. MATCH (p:Person)-[:DIRECTED]->(m:Movie) WITH p,m MATCH (p:Person)-[:WROTE]->(m:Movie) RETURN p,m
+
+8. MATCH (p:Person)-[:ACTED_IN]->(m:Movie) WHERE p.name='Hugo Weaving' WITH m MATCH (p:Person)-[:ACTED_IN]->(m:Movie) WHERE p.name='Keanu Reeves' RETURN m
+
+9. CREATE (N:Person {name:'Joe Johnston'})
+CREATE (N:Person {name:'Chris Evans'})
+CREATE (N:Person {name:'Samuel L. Jackson'})
+CREATE (N:Person {name:'Christopher Markus'})
+CREATE (N:Person {name:'Stephen McFeely'})
+CREATE (N:Movie {title:'Captain America: The First Avenger'})
+MATCH (p:Person),(m:Movie) WHERE p.name='Joe Johnston' AND m.title='Captain America: The First Avenger' CREATE (p)-[r:DIRECTED]->(m)
+MATCH (p:Person),(m:Movie) WHERE p.name='Christopher Markus' AND m.title='Captain America: The First Avenger' CREATE (p)-[r:WROTE]->(m)
+MATCH (p:Person),(m:Movie) WHERE p.name='Stephen McFeely' AND m.title='Captain America: The First Avenger' CREATE (p)-[r:WROTE]->(m)
+MATCH (p:Person),(m:Movie) WHERE p.name='Chris Evans' AND m.title='Captain America: The First Avenger' CREATE (p)-[r:ACTED_IN]->(m)
+MATCH (p:Person),(m:Movie) WHERE p.name='Hugo Weaving' AND m.title='Captain America: The First Avenger' CREATE (p)-[r:ACTED_IN]->(m)
+MATCH (p:Person),(m:Movie) WHERE p.name='Samuel L. Jackson' AND m.title='Captain America: The First Avenger' CREATE (p)-[r:ACTED_IN]->(m)
+MATCH (p:Person)-[]->(m:Movie) WHERE m.title='Captain America: The First Avenger' return p,m
+
+
