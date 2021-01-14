@@ -1,0 +1,90 @@
+1. MATCH (t:town { name:"Darjeeling" }),(p:peak { name:"Sandakphu" })
+WITH t,p
+MATCH path = ShortestPath((t)-[*]-(p))
+RETURN path
+
+2. MATCH (t:town { name:"Darjeeling" }),(p:peak { name:"Sandakphu" })
+WITH t,p
+MATCH path = ShortestPath((t)-[*]-(p))
+WHERE ALL (r IN relationships(path) WHERE r.winter='true')
+RETURN path
+
+3. MATCH paths=(t:town { name:"Darjeeling" })-[r*..5]->(p:peak { name:"Sandakphu" })
+WITH paths, REDUCE(s = 0, x IN r | s + x.distance) AS dist
+ORDER BY dist
+RETURN paths, dist;
+
+MATCH (t { name:"Darjeeling" })-[r:twowheeler*..5]->(n)
+WHERE ALL (re IN r WHERE re.summer='true')
+RETURN n;
+#brak rezultatów
+
+4. match (n:Flight)-[r:ORIGIN]->(a:Airport)
+with a, count(r) as ilosc
+order by ilosc
+return a, ilosc
+
+#zastosowano polecenia z pliku create.txt [r:CHEAPEST_FLIGHT]
+5. match p=(a:Airport {name:"LAX"})-[:CHEAPEST_FLIGHT*..4]->(b:Airport)
+with b, relationships(p) as r
+where all(i in range(0, size(r) - 2) where r[i].date+r[i].duration < r[i + 1].date)
+with b, reduce (suma=0, n in r | suma+n.price) as cena
+where cena<3000
+return distinct b
+
+6. match p=(a:Airport {name:"LAX"})-[:CHEAPEST_FLIGHT*..4]->(b:Airport {name:"DAY"})
+with p, relationships(p) as r
+where all(i in range(0, size(r) - 2) where r[i].date+r[i].duration < r[i + 1].date)
+with p, reduce (suma=0, n in r | suma+n.price) as cena
+order by cena
+return p, cena
+
+#nie da się dolecieć z LAX do DAY. Do DAY można dolecieć bezpośrednio tylko z MSP, a do MSP bezpośrednio tylko z FSD, DLH albo MOT, a do żadnych z tej trójki nie da się dolecieć znikąd bezpośrednio. Aby zaprezentować jakieś wyniki, zamieniłem DAY na ORD w 6,7,8.
+
+6*. match p=(a:Airport {name:"LAX"})-[:CHEAPEST_FLIGHT*..4]->(b:Airport {name:"ORD"})
+with p, relationships(p) as r
+where all(i in range(0, size(r) - 2) where r[i].date+r[i].duration < r[i + 1].date)
+with p, reduce (suma=0, n in r | suma+n.price) as cena
+order by cena
+return p, cena
+
+7*. match p=(a:Airport {name:"LAX"})-[:CHEAPEST_FLIGHT*..4]->(b:Airport {name:"ORD"})
+with p, relationships(p) as r
+where all(i in range(0, size(r) - 2) where r[i].date+r[i].duration < r[i + 1].date)
+with p, reduce (suma=0, n in r | suma+n.price) as cena
+order by cena
+limit 1
+return distinct p, cena
+
+8*. #stworzyłem relację BUSINESS_FLIGHT na wzór CHEAPEST_FLIGHT
+MATCH (a:Airport)<-[:ORIGIN]-(f:Flight)-[:DESTINATION]->(b:Airport), (f)<-[:ASSIGN]-(t:Ticket {class:"business"})
+WITH a,b,f,t
+CREATE (a)-[r:BUSINESS_FLIGHT {price: t.price, class:t.class, date: f.date, duration: f.duration, distance: f.distance, airline:f.airline}]->(b)
+RETURN r;
+
+#właściwe zapytanie
+match p=(a:Airport {name:"LAX"})-[:BUSINESS_FLIGHT*..4]->(b:Airport {name:"ORD"})
+with p, relationships(p) as r
+where all(i in range(0, size(r) - 2) where r[i].date+r[i].duration < r[i + 1].date)
+with p, reduce (suma=0, n in r | suma+n.price) as cena
+order by cena
+limit 1
+return distinct p, cena
+
+9. match (a:Airport)<-[:ORIGIN]-(f:Flight)-[:DESTINATION]->(b:Airport)
+with collect(a)+collect(b) as porty,f
+unwind porty as ab
+with distinct f.airline as linie, count(distinct ab) as ile
+order by ile
+return linie, ile
+
+10. match p=(a:Airport)<-[:ORIGIN]-(f1:Flight)-[:DESTINATION]->(b:Airport)<-[:ORIGIN]-(f2:Flight)-[:DESTINATION]->(c:Airport)
+where a.name <> c.name and f1.date+f1.duration<f2.date
+with p,f1,f2
+match (t1:Ticket)-[]->(f1), (t2:Ticket)-[]->(f2)
+with t1,t2,p,min(t1.price) as min_price1,min(t2.price) as min_price2
+MATCH (t1:Ticket {price:min_price1})-[]->(f1), (t2:Ticket {price:min_price2})-[]->(f2)
+with t1,t2,p,t1.price+t2.price as cena
+order by cena
+limit 1
+return p,cena

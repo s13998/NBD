@@ -1,0 +1,130 @@
+﻿[
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1703,
+"start": 5,
+"end": 25,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 07:39:45",
+"duration": 40,
+"distance": 236,
+"price": 186.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 25,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 25,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          },
+          "relationship": {
+"identity": 1689,
+"start": 25,
+"end": 17,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 13:53:54",
+"duration": 80,
+"distance": 628,
+"price": 490.5,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          },
+          "relationship": {
+"identity": 1607,
+"start": 17,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 19:20:38",
+"duration": 101,
+"distance": 888,
+"price": 690.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 3.0
+    },
+    "cena": 1368.0
+  }
+]

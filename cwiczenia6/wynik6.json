@@ -1,0 +1,6816 @@
+﻿[
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1703,
+"start": 5,
+"end": 25,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 07:39:45",
+"duration": 40,
+"distance": 236,
+"price": 186.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 25,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 25,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          },
+          "relationship": {
+"identity": 1689,
+"start": 25,
+"end": 17,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 13:53:54",
+"duration": 80,
+"distance": 628,
+"price": 490.5,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          },
+          "relationship": {
+"identity": 1607,
+"start": 17,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 19:20:38",
+"duration": 101,
+"distance": 888,
+"price": 690.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 3.0
+    },
+    "cena": 1368.0
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1703,
+"start": 5,
+"end": 25,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 07:39:45",
+"duration": 40,
+"distance": 236,
+"price": 186.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 25,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 25,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          },
+          "relationship": {
+"identity": 1689,
+"start": 25,
+"end": 17,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 13:53:54",
+"duration": 80,
+"distance": 628,
+"price": 490.5,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          },
+          "relationship": {
+"identity": 1600,
+"start": 17,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 07:25:20",
+"duration": 114,
+"distance": 888,
+"price": 694.5,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 3.0
+    },
+    "cena": 1371.75
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1666,
+"start": 5,
+"end": 13,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/3/2015 13:44:40",
+"duration": 62,
+"distance": 373,
+"price": 294.75,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 13,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "SMF"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 13,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "SMF"
+            }
+          },
+          "relationship": {
+"identity": 1682,
+"start": 13,
+"end": 17,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 00:17:02",
+"duration": 113,
+"distance": 909,
+"price": 709.5,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          },
+          "relationship": {
+"identity": 1600,
+"start": 17,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 07:25:20",
+"duration": 114,
+"distance": 888,
+"price": 694.5,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 3.0
+    },
+    "cena": 1698.75
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1669,
+"start": 5,
+"end": 13,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 11:49:17",
+"duration": 61,
+"distance": 373,
+"price": 294.75,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 13,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "SMF"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 13,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "SMF"
+            }
+          },
+          "relationship": {
+"identity": 1682,
+"start": 13,
+"end": 17,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 00:17:02",
+"duration": 113,
+"distance": 909,
+"price": 709.5,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          },
+          "relationship": {
+"identity": 1600,
+"start": 17,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 07:25:20",
+"duration": 114,
+"distance": 888,
+"price": 694.5,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 3.0
+    },
+    "cena": 1698.75
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1668,
+"start": 5,
+"end": 13,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 12:26:52",
+"duration": 65,
+"distance": 373,
+"price": 295.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 13,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "SMF"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 13,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "SMF"
+            }
+          },
+          "relationship": {
+"identity": 1682,
+"start": 13,
+"end": 17,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 00:17:02",
+"duration": 113,
+"distance": 909,
+"price": 709.5,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          },
+          "relationship": {
+"identity": 1600,
+"start": 17,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 07:25:20",
+"duration": 114,
+"distance": 888,
+"price": 694.5,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 3.0
+    },
+    "cena": 1699.5
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1703,
+"start": 5,
+"end": 25,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 07:39:45",
+"duration": 40,
+"distance": 236,
+"price": 186.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 25,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 25,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          },
+          "relationship": {
+"identity": 1663,
+"start": 25,
+"end": 12,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 12:11:25",
+"duration": 222,
+"distance": 2065,
+"price": 1604.25,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 12,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 12,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAD"
+            }
+          },
+          "relationship": {
+"identity": 1576,
+"start": 12,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 22:10:45",
+"duration": 98,
+"distance": 588,
+"price": 465.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 3.0
+    },
+    "cena": 2256.0
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1703,
+"start": 5,
+"end": 25,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 07:39:45",
+"duration": 40,
+"distance": 236,
+"price": 186.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 25,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 25,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          },
+          "relationship": {
+"identity": 1663,
+"start": 25,
+"end": 12,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 12:11:25",
+"duration": 222,
+"distance": 2065,
+"price": 1604.25,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 12,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 12,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAD"
+            }
+          },
+          "relationship": {
+"identity": 1589,
+"start": 12,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 22:53:04",
+"duration": 102,
+"distance": 588,
+"price": 466.5,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 3.0
+    },
+    "cena": 2257.5
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1528,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 08:14:49",
+"duration": 258,
+"distance": 2454,
+"price": 1905.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 2.0
+    },
+    "cena": 2472.75
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1530,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 23:11:39",
+"duration": 267,
+"distance": 2454,
+"price": 1907.25,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 2.0
+    },
+    "cena": 2475.0
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1703,
+"start": 5,
+"end": 25,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 07:39:45",
+"duration": 40,
+"distance": 236,
+"price": 186.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 25,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 25,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          },
+          "relationship": {
+"identity": 1689,
+"start": 25,
+"end": 17,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 13:53:54",
+"duration": 80,
+"distance": 628,
+"price": 490.5,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          },
+          "relationship": {
+"identity": 1527,
+"start": 17,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 11:14:05",
+"duration": 177,
+"distance": 1605,
+"price": 1248.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 2493.0
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1539,
+"start": 5,
+"end": 2,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"price": 1070.25,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          },
+          "relationship": {
+"identity": 1533,
+"start": 2,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 16:00:26",
+"duration": 156,
+"distance": 1400,
+"price": 1089.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 3.0
+    },
+    "cena": 2727.0
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1728,
+"start": 5,
+"end": 41,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 02:27:11",
+"duration": 38,
+"distance": 209,
+"price": 165.75,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 41,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "FAT"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 41,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "FAT"
+            }
+          },
+          "relationship": {
+"identity": 1567,
+"start": 41,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/3/2015 01:28:01",
+"duration": 39,
+"distance": 209,
+"price": 166.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1528,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 08:14:49",
+"duration": 258,
+"distance": 2454,
+"price": 1905.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 2805.0
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1728,
+"start": 5,
+"end": 41,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 02:27:11",
+"duration": 38,
+"distance": 209,
+"price": 165.75,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 41,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "FAT"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 41,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "FAT"
+            }
+          },
+          "relationship": {
+"identity": 1572,
+"start": 41,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 11:50:27",
+"duration": 41,
+"distance": 209,
+"price": 166.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1528,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 08:14:49",
+"duration": 258,
+"distance": 2454,
+"price": 1905.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 2805.0
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1730,
+"start": 5,
+"end": 41,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 09:18:34",
+"duration": 39,
+"distance": 209,
+"price": 166.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 41,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "FAT"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 41,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "FAT"
+            }
+          },
+          "relationship": {
+"identity": 1567,
+"start": 41,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/3/2015 01:28:01",
+"duration": 39,
+"distance": 209,
+"price": 166.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1528,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 08:14:49",
+"duration": 258,
+"distance": 2454,
+"price": 1905.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 2805.75
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1728,
+"start": 5,
+"end": 41,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 02:27:11",
+"duration": 38,
+"distance": 209,
+"price": 165.75,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 41,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "FAT"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 41,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "FAT"
+            }
+          },
+          "relationship": {
+"identity": 1566,
+"start": 41,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 00:11:49",
+"duration": 48,
+"distance": 209,
+"price": 168.75,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1528,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 08:14:49",
+"duration": 258,
+"distance": 2454,
+"price": 1905.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 2807.25
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1728,
+"start": 5,
+"end": 41,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 02:27:11",
+"duration": 38,
+"distance": 209,
+"price": 165.75,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 41,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "FAT"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 41,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "FAT"
+            }
+          },
+          "relationship": {
+"identity": 1572,
+"start": 41,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 11:50:27",
+"duration": 41,
+"distance": 209,
+"price": 166.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1530,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 23:11:39",
+"duration": 267,
+"distance": 2454,
+"price": 1907.25,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 2807.25
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1728,
+"start": 5,
+"end": 41,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 02:27:11",
+"duration": 38,
+"distance": 209,
+"price": 165.75,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 41,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "FAT"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 41,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "FAT"
+            }
+          },
+          "relationship": {
+"identity": 1566,
+"start": 41,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 00:11:49",
+"duration": 48,
+"distance": 209,
+"price": 168.75,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1530,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 23:11:39",
+"duration": 267,
+"distance": 2454,
+"price": 1907.25,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 2809.5
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1666,
+"start": 5,
+"end": 13,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/3/2015 13:44:40",
+"duration": 62,
+"distance": 373,
+"price": 294.75,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 13,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "SMF"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 13,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "SMF"
+            }
+          },
+          "relationship": {
+"identity": 1682,
+"start": 13,
+"end": 17,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 00:17:02",
+"duration": 113,
+"distance": 909,
+"price": 709.5,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          },
+          "relationship": {
+"identity": 1527,
+"start": 17,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 11:14:05",
+"duration": 177,
+"distance": 1605,
+"price": 1248.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 2820.0
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1669,
+"start": 5,
+"end": 13,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 11:49:17",
+"duration": 61,
+"distance": 373,
+"price": 294.75,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 13,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "SMF"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 13,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "SMF"
+            }
+          },
+          "relationship": {
+"identity": 1682,
+"start": 13,
+"end": 17,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 00:17:02",
+"duration": 113,
+"distance": 909,
+"price": 709.5,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          },
+          "relationship": {
+"identity": 1527,
+"start": 17,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 11:14:05",
+"duration": 177,
+"distance": 1605,
+"price": 1248.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 2820.0
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1668,
+"start": 5,
+"end": 13,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 12:26:52",
+"duration": 65,
+"distance": 373,
+"price": 295.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 13,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "SMF"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 13,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "SMF"
+            }
+          },
+          "relationship": {
+"identity": 1682,
+"start": 13,
+"end": 17,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 00:17:02",
+"duration": 113,
+"distance": 909,
+"price": 709.5,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          },
+          "relationship": {
+"identity": 1527,
+"start": 17,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 11:14:05",
+"duration": 177,
+"distance": 1605,
+"price": 1248.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 2820.75
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1674,
+"start": 5,
+"end": 16,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 15:18:22",
+"duration": 269,
+"distance": 2611,
+"price": 2025.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 16,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "BOS"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 16,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "BOS"
+            }
+          },
+          "relationship": {
+"identity": 1660,
+"start": 16,
+"end": 12,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 22:01:53",
+"duration": 88,
+"distance": 413,
+"price": 331.5,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 12,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 12,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAD"
+            }
+          },
+          "relationship": {
+"identity": 1576,
+"start": 12,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 22:10:45",
+"duration": 98,
+"distance": 588,
+"price": 465.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 3.0
+    },
+    "cena": 2821.5
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1674,
+"start": 5,
+"end": 16,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 15:18:22",
+"duration": 269,
+"distance": 2611,
+"price": 2025.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 16,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "BOS"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 16,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "BOS"
+            }
+          },
+          "relationship": {
+"identity": 1660,
+"start": 16,
+"end": 12,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 22:01:53",
+"duration": 88,
+"distance": 413,
+"price": 331.5,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 12,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 12,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAD"
+            }
+          },
+          "relationship": {
+"identity": 1589,
+"start": 12,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 22:53:04",
+"duration": 102,
+"distance": 588,
+"price": 466.5,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 3.0
+    },
+    "cena": 2823.0
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1703,
+"start": 5,
+"end": 25,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 07:39:45",
+"duration": 40,
+"distance": 236,
+"price": 186.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 25,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 25,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          },
+          "relationship": {
+"identity": 1663,
+"start": 25,
+"end": 12,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 12:11:25",
+"duration": 222,
+"distance": 2065,
+"price": 1604.25,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 12,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 12,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAD"
+            }
+          },
+          "relationship": {
+"identity": 1553,
+"start": 12,
+"end": 4,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 21:34:17",
+"duration": 106,
+"distance": 758,
+"price": 594.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 4,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MCO"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 4,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MCO"
+            }
+          },
+          "relationship": {
+"identity": 1593,
+"start": 4,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 21:50:26",
+"duration": 144,
+"distance": 1005,
+"price": 789.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3175.5
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1703,
+"start": 5,
+"end": 25,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 07:39:45",
+"duration": 40,
+"distance": 236,
+"price": 186.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 25,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 25,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          },
+          "relationship": {
+"identity": 1663,
+"start": 25,
+"end": 12,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 12:11:25",
+"duration": 222,
+"distance": 2065,
+"price": 1604.25,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 12,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 12,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAD"
+            }
+          },
+          "relationship": {
+"identity": 1553,
+"start": 12,
+"end": 4,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 21:34:17",
+"duration": 106,
+"distance": 758,
+"price": 594.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 4,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MCO"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 4,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MCO"
+            }
+          },
+          "relationship": {
+"identity": 1599,
+"start": 4,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 12:23:33",
+"duration": 145,
+"distance": 1005,
+"price": 789.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3175.5
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1732,
+"start": 5,
+"end": 42,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 05:51:42",
+"duration": 63,
+"distance": 451,
+"price": 354.0,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 42,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "TUS"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 42,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "TUS"
+            }
+          },
+          "relationship": {
+"identity": 1558,
+"start": 42,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 00:00:13",
+"duration": 74,
+"distance": 451,
+"price": 356.25,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1528,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 08:14:49",
+"duration": 258,
+"distance": 2454,
+"price": 1905.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3183.0
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1732,
+"start": 5,
+"end": 42,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 05:51:42",
+"duration": 63,
+"distance": 451,
+"price": 354.0,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 42,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "TUS"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 42,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "TUS"
+            }
+          },
+          "relationship": {
+"identity": 1556,
+"start": 42,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 19:39:36",
+"duration": 73,
+"distance": 451,
+"price": 356.25,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1528,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 08:14:49",
+"duration": 258,
+"distance": 2454,
+"price": 1905.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3183.0
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1732,
+"start": 5,
+"end": 42,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 05:51:42",
+"duration": 63,
+"distance": 451,
+"price": 354.0,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 42,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "TUS"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 42,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "TUS"
+            }
+          },
+          "relationship": {
+"identity": 1558,
+"start": 42,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 00:00:13",
+"duration": 74,
+"distance": 451,
+"price": 356.25,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1530,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 23:11:39",
+"duration": 267,
+"distance": 2454,
+"price": 1907.25,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3185.25
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1732,
+"start": 5,
+"end": 42,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 05:51:42",
+"duration": 63,
+"distance": 451,
+"price": 354.0,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 42,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "TUS"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 42,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "TUS"
+            }
+          },
+          "relationship": {
+"identity": 1556,
+"start": 42,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 19:39:36",
+"duration": 73,
+"distance": 451,
+"price": 356.25,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1530,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 23:11:39",
+"duration": 267,
+"distance": 2454,
+"price": 1907.25,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3185.25
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1721,
+"start": 5,
+"end": 40,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 15:15:29",
+"duration": 83,
+"distance": 677,
+"price": 528.0,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          },
+          "relationship": {
+"identity": 1555,
+"start": 40,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 16:40:54",
+"duration": 100,
+"distance": 677,
+"price": 532.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1528,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 08:14:49",
+"duration": 258,
+"distance": 2454,
+"price": 1905.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3533.25
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1720,
+"start": 5,
+"end": 40,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 05:43:58",
+"duration": 89,
+"distance": 677,
+"price": 529.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          },
+          "relationship": {
+"identity": 1555,
+"start": 40,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 16:40:54",
+"duration": 100,
+"distance": 677,
+"price": 532.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1528,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 08:14:49",
+"duration": 258,
+"distance": 2454,
+"price": 1905.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3534.75
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1723,
+"start": 5,
+"end": 40,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 17:17:15",
+"duration": 88,
+"distance": 677,
+"price": 529.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          },
+          "relationship": {
+"identity": 1555,
+"start": 40,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 16:40:54",
+"duration": 100,
+"distance": 677,
+"price": 532.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1528,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 08:14:49",
+"duration": 258,
+"distance": 2454,
+"price": 1905.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3534.75
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1721,
+"start": 5,
+"end": 40,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 15:15:29",
+"duration": 83,
+"distance": 677,
+"price": 528.0,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          },
+          "relationship": {
+"identity": 1555,
+"start": 40,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 16:40:54",
+"duration": 100,
+"distance": 677,
+"price": 532.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1530,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 23:11:39",
+"duration": 267,
+"distance": 2454,
+"price": 1907.25,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3535.5
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1722,
+"start": 5,
+"end": 40,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 04:43:56",
+"duration": 90,
+"distance": 677,
+"price": 530.25,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          },
+          "relationship": {
+"identity": 1555,
+"start": 40,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 16:40:54",
+"duration": 100,
+"distance": 677,
+"price": 532.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1528,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 08:14:49",
+"duration": 258,
+"distance": 2454,
+"price": 1905.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3535.5
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1720,
+"start": 5,
+"end": 40,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 05:43:58",
+"duration": 89,
+"distance": 677,
+"price": 529.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          },
+          "relationship": {
+"identity": 1561,
+"start": 40,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 11:36:48",
+"duration": 102,
+"distance": 677,
+"price": 533.25,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1528,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 08:14:49",
+"duration": 258,
+"distance": 2454,
+"price": 1905.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3535.5
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1720,
+"start": 5,
+"end": 40,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 05:43:58",
+"duration": 89,
+"distance": 677,
+"price": 529.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          },
+          "relationship": {
+"identity": 1555,
+"start": 40,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 16:40:54",
+"duration": 100,
+"distance": 677,
+"price": 532.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1530,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 23:11:39",
+"duration": 267,
+"distance": 2454,
+"price": 1907.25,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3537.0
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1723,
+"start": 5,
+"end": 40,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 17:17:15",
+"duration": 88,
+"distance": 677,
+"price": 529.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          },
+          "relationship": {
+"identity": 1555,
+"start": 40,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 16:40:54",
+"duration": 100,
+"distance": 677,
+"price": 532.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1530,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 23:11:39",
+"duration": 267,
+"distance": 2454,
+"price": 1907.25,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3537.0
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1721,
+"start": 5,
+"end": 40,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 15:15:29",
+"duration": 83,
+"distance": 677,
+"price": 528.0,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          },
+          "relationship": {
+"identity": 1571,
+"start": 40,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/3/2015 23:13:12",
+"duration": 117,
+"distance": 677,
+"price": 537.0,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1528,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 08:14:49",
+"duration": 258,
+"distance": 2454,
+"price": 1905.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3537.75
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1722,
+"start": 5,
+"end": 40,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 04:43:56",
+"duration": 90,
+"distance": 677,
+"price": 530.25,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          },
+          "relationship": {
+"identity": 1555,
+"start": 40,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 16:40:54",
+"duration": 100,
+"distance": 677,
+"price": 532.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1530,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 23:11:39",
+"duration": 267,
+"distance": 2454,
+"price": 1907.25,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3537.75
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1720,
+"start": 5,
+"end": 40,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 05:43:58",
+"duration": 89,
+"distance": 677,
+"price": 529.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          },
+          "relationship": {
+"identity": 1561,
+"start": 40,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 11:36:48",
+"duration": 102,
+"distance": 677,
+"price": 533.25,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1530,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 23:11:39",
+"duration": 267,
+"distance": 2454,
+"price": 1907.25,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3537.75
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1725,
+"start": 5,
+"end": 40,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/3/2015 21:46:43",
+"duration": 86,
+"distance": 677,
+"price": 528.75,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          },
+          "relationship": {
+"identity": 1571,
+"start": 40,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/3/2015 23:13:12",
+"duration": 117,
+"distance": 677,
+"price": 537.0,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1528,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 08:14:49",
+"duration": 258,
+"distance": 2454,
+"price": 1905.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3538.5
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1720,
+"start": 5,
+"end": 40,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 05:43:58",
+"duration": 89,
+"distance": 677,
+"price": 529.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          },
+          "relationship": {
+"identity": 1571,
+"start": 40,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/3/2015 23:13:12",
+"duration": 117,
+"distance": 677,
+"price": 537.0,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1528,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 08:14:49",
+"duration": 258,
+"distance": 2454,
+"price": 1905.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3539.25
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1723,
+"start": 5,
+"end": 40,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/1/2015 17:17:15",
+"duration": 88,
+"distance": 677,
+"price": 529.5,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          },
+          "relationship": {
+"identity": 1571,
+"start": 40,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/3/2015 23:13:12",
+"duration": 117,
+"distance": 677,
+"price": 537.0,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1528,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 08:14:49",
+"duration": 258,
+"distance": 2454,
+"price": 1905.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3539.25
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1722,
+"start": 5,
+"end": 40,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/2/2015 04:43:56",
+"duration": 90,
+"distance": 677,
+"price": 530.25,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 40,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ABQ"
+            }
+          },
+          "relationship": {
+"identity": 1571,
+"start": 40,
+"end": 5,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/3/2015 23:13:12",
+"duration": 117,
+"distance": 677,
+"price": 537.0,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1528,
+"start": 5,
+"end": 1,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 08:14:49",
+"duration": 258,
+"distance": 2454,
+"price": 1905.0,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "EWR"
+            }
+          },
+          "relationship": {
+"identity": 1604,
+"start": 1,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/30/2015 20:42:31",
+"duration": 116,
+"distance": 719,
+"price": 567.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 3540.0
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1703,
+"start": 5,
+"end": 25,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 07:39:45",
+"duration": 40,
+"distance": 236,
+"price": 186.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 25,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 25,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          },
+          "relationship": {
+"identity": 1663,
+"start": 25,
+"end": 12,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 12:11:25",
+"duration": 222,
+"distance": 2065,
+"price": 1604.25,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 12,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 12,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAD"
+            }
+          },
+          "relationship": {
+"identity": 1700,
+"start": 12,
+"end": 24,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 12:34:15",
+"duration": 330,
+"distance": 2253,
+"price": 1772.25,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 24,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "SAN"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 24,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "SAN"
+            }
+          },
+          "relationship": {
+"identity": 1579,
+"start": 24,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 18:12:05",
+"duration": 187,
+"distance": 1723,
+"price": 1338.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 4902.0
+  },
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 7,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1703,
+"start": 5,
+"end": 25,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 07:39:45",
+"duration": 40,
+"distance": 236,
+"price": 186.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 25,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 25,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          },
+          "relationship": {
+"identity": 1663,
+"start": 25,
+"end": 12,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 12:11:25",
+"duration": 222,
+"distance": 2065,
+"price": 1604.25,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 12,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 12,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAD"
+            }
+          },
+          "relationship": {
+"identity": 1699,
+"start": 12,
+"end": 24,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 16:25:59",
+"duration": 336,
+"distance": 2253,
+"price": 1773.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 24,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "SAN"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 24,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "SAN"
+            }
+          },
+          "relationship": {
+"identity": 1579,
+"start": 24,
+"end": 7,
+"type": "CHEAPEST_FLIGHT",
+"properties": {
+"date": "11/29/2015 18:12:05",
+"duration": 187,
+"distance": 1723,
+"price": 1338.75,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 7,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "cena": 4903.5
+  }
+]
