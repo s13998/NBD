@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fsZE57QwMMxxzGBKZMxjZVjQUXqTLwsA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho)
+Link: </buckets/s13998>; rel="up"
+Last-Modified: Fri, 15 Jan 2021 03:31:44 GMT
+ETag: "4AoEAWCWuyfZsRYqKYrjfc"
+Date: Fri, 15 Jan 2021 03:33:22 GMT
+Content-Type: application/json
+Content-Length: 67
+
+{"name": "dokument2", "parzysty":true, "liczba":2, "dodatnia":true}

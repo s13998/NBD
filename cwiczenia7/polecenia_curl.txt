@@ -1,0 +1,23 @@
+1.curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "dokument1", "parzysty":false, "liczba":1, "dodatnia":true, "wartosc":"dodatkowa"}' http://localhost:8098/buckets/s13998/keys/dokument1
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "dokument2", "parzysty":true, "liczba":2, "dodatnia":true}' http://localhost:8098/buckets/s13998/keys/dokument2
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "dokument3", "parzysty":false, "liczba":3, "dodatnia":true}' http://localhost:8098/buckets/s13998/keys/dokument3
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "dokument4", "parzysty":true, "liczba":4, "dodatnia":true}' http://localhost:8098/buckets/s13998/keys/dokument4
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "dokument5", "parzysty":false, "liczba":5, "dodatnia":true}' http://localhost:8098/buckets/s13998/keys/dokument5
+
+2.curl -i http://localhost:8098/buckets/s13998/keys/dokument2
+
+3.curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "dokument1", "parzysty":false, "liczba":1, "dodatnia":true, "wartosc":"dodatkowa"}' http://localhost:8098/buckets/s13998/keys/dokument1
+
+4.curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "dokument2", "parzysty":true, "liczba":2}' http://localhost:8098/buckets/s13998/keys/dokument2
+
+5.curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "dokument3", "parzysty":false, "liczba":100, "dodatnia":true}' http://localhost:8098/buckets/s13998/keys/dokument3
+
+6.curl -i -XDELETE http://localhost:8098/buckets/s13998/keys/dokument4
+
+7. curl -i http://localhost:8098/buckets/s13998/keys/dokument4
+
+8.curl -i -XPOST -H "Content-Type: application/json" -d '{"name": "dokument8"}' http://localhost:8098/buckets/s13998/keys/
+
+9.curl -i http://localhost:8098/buckets/s13998/keys/9vkYLwMxOWTCTKCgJ4ucGGSP2jb
+
+10.curl -i -XDELETE http://localhost:8098/buckets/s13998/keys/9vkYLwMxOWTCTKCgJ4ucGGSP2jb
