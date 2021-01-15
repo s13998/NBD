@@ -1,0 +1,3 @@
+b'{"parzysty": false, "name": "dokument11", "dodatnia": true, "liczba": 11}'
+b'{"parzysty": false, "name": "dokument11", "dodatnia": true, "liczba": 93}'
+None
